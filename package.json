@@ -1,0 +1,20 @@
+{
+  "name": "RI Template",
+  "description": "Derived from curious - just changed fonts.",
+  "version": "0.9.0",
+  "engines": {
+    "ghost": ">=1.0.0"
+  },
+  "screenshots": {
+    "desktop": "assets/screenshot-desktop.jpg",
+    "mobile": "assets/screenshot-mobile.jpg"
+  },
+  "author": {
+    "name": "Radford Castro",
+    "email": "radford.castro@toople.prg",
+    "url": "https://www.toople.org"
+  },
+  "config": {
+    "posts_per_page": 8
+  }
+}

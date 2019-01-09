@@ -1,0 +1,34 @@
+<aside class="sidebar" aria-label="Sidebar">
+	<div class="sidebar-scrollable">
+		<div class="widget-area">
+			{{#if @blog.navigation}}
+				{{navigation}}
+			{{/if}}
+			<section class="widget widget-text">
+				<h2 class="widget-title">About {{@blog.title}}</h2>
+				<p>Radical Insider is a site dedicated to educating the political junkie through tireless proven research, reliable data and inside sources. </p>
+			</section><!-- .widget -->
+			{{#if @labs.subscribers}}
+			<section class="widget widget-newsletter">
+				<h2 class="widget-title">{{@blog.title}} Newsletter</h2>
+				<p>Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
+				{{subscribe_form form_class="gh-subscribe-form" placeholder="Your email address"}}
+			</section><!-- .widget -->
+			{{/if}}
+			<section class="widget widget-text">
+				<h2 class="widget-title">{{@blog.title}} Support Our Non-Profit Organization Through Patreon</h2>
+				<p>We go to extraordinary lengths to arm you with hard counters backed by factual evidence and data to challenge official lies and narratives coming from both sides of the aisle. This kind of research and preparation is more vital than ever. To stay objective, we depend on the support of readers like you to help keep our organization strong and independent.</p>
+			</section><!-- .widget -->
+			<section class="widget widget-text">
+				<h2 class="widget-title">Questions?</h2>
+				<p>Check out our FAQ. For further information, please feel free to email us at info@radicalinsider.com.</p>
+				<!--<ul class="contacts">
+					<li><span class="icon icon-envelope" aria-hidden="true"></span> blogin [at] gmail.com</li>
+					<li><span class="icon icon-map-marker" aria-hidden="true"></span> 123 Some Street, Some City, AA 12345</li>
+					<li><span class="icon icon-phone" aria-hidden="true"></span> +123 112 23445</li>
+				</ul>-->
+			</section><!-- .widget -->
+		</div><!-- .widget-area -->
+		<a class="sidebar-toggle"><span class="screen-reader-text">Close Sidebar</span><span class="icon" aria-hidden="true"></span></a>
+	</div><!-- .sidebar-scrollable -->
+</aside><!-- .sidebar -->
